@@ -261,7 +261,7 @@ module.exports = function(grunt) {
 
     // Validate Javascript
     jshint: {
-     all: ['Gruntfile.js', 'app/lang/**/*.json']
+     all: ['gruntfile.js', 'app/lang/**/*.json']
     },
 
     //
@@ -384,6 +384,8 @@ module.exports = function(grunt) {
     grunt.registerTask('init', [
                               'copy:init',
                               'bake:de',
+                              'concat',
+                              'less',
                               'compress:svg'
                               ]);
 
