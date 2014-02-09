@@ -12,7 +12,7 @@
           <strong class="bg-dark">{{footer.website}}</strong> &copy;
           2014
           <br>
-          <small class="footer-content-technology">1.0.7 {{footer.technologies}}</small>
+          <small class="footer-content-technology">v{{%release.version%}} {{footer.technologies}}</small>
         </li>
       </ul>
     </li>

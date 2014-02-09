@@ -21,6 +21,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-open');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-connect');
+  grunt.loadNpmTasks('grunt-bumpup');
+  grunt.loadNpmTasks('grunt-text-replace');
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
@@ -282,7 +284,7 @@ module.exports = function(grunt) {
       }
     },
 
-    // Check relases directly
+    // Opens the compiled project directly in browser
     open: {
       public: {
         path : 'http://localhost:8090'
@@ -298,8 +300,10 @@ module.exports = function(grunt) {
       live: ['public/']
     },
 
-    ////////////////////////
-    // 
+    //
+    //--------------------------
+    // Release stuff
+    //--------------------------
 
     // Web Server
     connect: {
@@ -327,6 +331,23 @@ module.exports = function(grunt) {
       }
     },
 
+    // Bumup the current release version in package.json and bower.json
+    bumpup: {
+        files: ['package.json', 'bower.json']
+    },
+
+    // Write current version number to template (taken from package.json)
+    replace: {
+      dev: {
+        src: ['dev/*.html'],
+        dest: 'dev/',
+        replacements: [{
+          from: '{{%release.version%}}',
+          to: "<%= pkg.version %>"
+        }]
+      }
+    },
+
     // Running `grunt watch` will watch for changes
     watch: {
       // Activate live reloading
@@ -337,13 +358,13 @@ module.exports = function(grunt) {
       // save result to /dev/index.html
       index: {
         files: ['app/index.html'],
-        tasks: ['processhtml:dev', 'bake', 'less', 'concat', 'htmlhint'],
+        tasks: ['processhtml:dev', 'bake', 'replace', 'less', 'concat', 'htmlhint'],
       },
       // Check for changes in /app/templates/*.* or /app/lang/**,
       // save chages to /dev/index.html
       bake: {
         files: ['app/templates/**', 'app/lang/**'],
-        tasks: ['bake', 'htmlhint'],
+        tasks: ['bake', 'replace', 'htmlhint'],
       },
       // Check for changes in /app/img/ or /app/fonts/,
       // save changes to /dev/**
@@ -366,7 +387,7 @@ module.exports = function(grunt) {
       // Check for changes in /app/js/**/*.js
       // changes will be saved in /dev/js
       jshint: {
-          files: ['app/lang/*.json', 'gruntfile.js', 'bower.json', 'packages.json'],
+          files: ['app/lang/*.json', 'gruntfile.js', 'bower.json', 'package.json'],
           tasks: ['jshint'],
       },
       concat: {
@@ -384,6 +405,7 @@ module.exports = function(grunt) {
     grunt.registerTask('init', [
                               'copy:init',
                               'bake:de',
+                              'replace',
                               'concat',
                               'less',
                               'compress:svg'
@@ -393,6 +415,7 @@ module.exports = function(grunt) {
   grunt.registerTask('public', [
                                 'copy:public',
                                 'bake',
+                                'replace',
                                 'processhtml',
                                 'less',
                                 'uncss',
@@ -412,6 +435,7 @@ module.exports = function(grunt) {
   grunt.registerTask('live', [
                               'ftp-deploy:live',
                               'clean:live',
+                              'bumpup',
                               'open:live'
                               ]);
 
