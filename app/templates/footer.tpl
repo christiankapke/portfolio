@@ -10,9 +10,9 @@
         </li>
         <li class="footer-content-copy col-sm-8 col-xs-12">
           <strong class="bg-dark">{{footer.website}}</strong> &copy;
-          {{footer.year}}
+          2014
           <br>
-          <small class="footer-content-technology">{{footer.version}} {{footer.technologies}}</small>
+          <small class="footer-content-technology">1.0.7 {{footer.technologies}}</small>
         </li>
       </ul>
     </li>
