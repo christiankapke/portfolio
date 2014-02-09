@@ -39,6 +39,9 @@
         <a href="https://plus.google.com/111944089016890852100/" target="_blank" title="Google+" itemprop="url" rel="publisher">
           <i class="icon-ck-google"></i>
         </a>
+        <a href="https://github.com/christiankapke" target="_blank" title="GitHub" itemprop="url" rel="publisher">
+          <i class="icon-ck-github"></i>
+        </a>
       </div>
     </li>
   </ul>
