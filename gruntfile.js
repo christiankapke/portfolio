@@ -366,7 +366,7 @@ module.exports = function(grunt) {
       // Check for changes in /app/js/**/*.js
       // changes will be saved in /dev/js
       jshint: {
-          files: ['app/lang/*.json'],
+          files: ['app/lang/*.json', 'gruntfile.js', 'bower.json', 'packages.json'],
           tasks: ['jshint'],
       },
       concat: {
