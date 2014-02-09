@@ -1,0 +1,241 @@
+.timeline {
+  position: relative;
+  margin: 6em auto;
+  padding: 1em 0;
+  list-style-type: none;
+  &:before {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    content: ' ';
+    display: block;
+    width: 1px;
+    height: 100%;
+    margin-left: -1px;
+    background: rgb(80,80,80);
+    background: -moz-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(100%,rgba(125,185,232,1)));
+    background: -webkit-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+    background: -o-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+    background: -ms-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, @color3 8%, @color3 92%, rgba(0,0,0,0) 100%);
+    z-index: 5;
+  }
+  li {
+    padding: 0;
+    margin-top: -3em;
+    &:after {
+      content: '';
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden;
+    }
+  }
+  .item-year {
+    margin: -5em 0 3em;
+  }
+}
+
+.direction-l {
+  position: relative;
+  width: 46.5%;
+  float: left;
+  text-align: right;
+}
+
+.direction-r {
+  position: relative;
+  width: 46.5%;
+  float: right;
+}
+
+.flag-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.flag {
+  position: relative;
+  display: inline;
+  padding: 2px 10px;
+  background: @color3;
+  color: @color2;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  font-weight: 100;
+}
+
+.direction-l .flag:before,
+.direction-r .flag:before {
+  position: absolute;
+  top: 57%;
+  right: -1.24em;
+  content: ' ';
+  display: block;
+  width: 13px;
+  height: 13px;
+  margin-top: -10px;
+  background: @color2;
+  border: 1px solid @color3;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.direction-r .flag:before {
+  left: -1.24em;
+}
+
+.direction-l .flag:after,
+.direction-r .flag:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  height: 0;
+  width: 0;
+  margin-top: -8px;
+  border: solid transparent;
+  border-left-color:@color3;
+  border-width: 8px;
+}
+.direction-r .flag:after {
+  left: inherit;
+  border-left-color:transparent;
+  border-right-color:@color3;
+  right: 100%;
+}
+
+.time-wrapper {
+  display: block;
+  vertical-align: middle;
+}
+
+.time {
+  display: inline-block;
+  padding: 2px 6px 0;
+  background: @color1;
+  border: 1px solid @color3;
+  border-width: 1px 1px 0 1px;
+}
+
+.desc {
+  margin: 0;
+  padding: 1em;
+  background: @color2;
+  line-height: 1.5em;
+  font-size: 1.2em;
+}
+
+/* ================ Timeline Media Queries ================ */
+
+@media screen and (max-width: @screen-md) {
+  .direction-l .flag:before,
+  .direction-r .flag:before {
+    right: -1.15em;
+  }
+  .direction-r .flag:before {
+    left: -1.15em;
+  }
+  .direction-l .desc {
+    margin-left: 2em;
+  }
+  .direction-r .desc {
+    margin-right: 2em;
+  }
+}
+
+
+@media screen and (max-width: @screen-sm) {
+  .flag {
+    font-size: 1.8em;
+  }
+  .direction-l .flag:before,
+  .direction-r .flag:before {
+    display: none;
+  }
+}
+
+@media screen and (max-width: @screen-xs) {
+  .timeline:before {
+    width: 0;
+  }
+  .timeline {
+    width: 100%;
+    padding: 2em 0 1em 0;
+    margin-top: 0;
+    li {
+      padding: 1em 0;
+      margin: 0;
+    }
+    .item-year {
+      display: none;
+    }
+  }
+  .direction-l,
+  .direction-r {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .flag-wrapper {
+    text-align: center;
+  }
+
+  .flag {
+    z-index: 15;
+    text-align: center;
+    font-size: 2.2em;
+  }
+
+  .direction-l .flag:before,
+  .direction-r .flag:before {
+    display: none;
+  }
+
+  .direction-l .flag:after,
+  .direction-r .flag:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: -8px;
+    height: 0;
+    width: 0;
+    margin-left: -8px;
+    border: solid transparent;
+    border-width: 8px;
+  }
+
+  .time-wrapper {
+    display: block;
+    position: relative;
+    margin: 4px 0 0 0;
+    z-index: 14;
+  }
+
+  .direction-l .time-wrapper {
+    float: none;
+  }
+
+  .direction-r .time-wrapper {
+    float: none;
+  }
+
+  .desc {
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    z-index: 15;
+  }
+
+  .direction-l .desc,
+  .direction-r .desc {
+    position: relative;
+    margin: 0 auto;
+    padding: 1em;
+    z-index: 15;
+    max-width: 90%;
+  }
+}

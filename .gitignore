@@ -1,0 +1,12 @@
+$ cat .gitignore
+
+# ignore specific files
+.DS_Store
+.ftppass
+
+# ignore all specific directories and files
+_tmp/**/*
+bower_components/**/*
+node_modules/**/*
+dev/**/*
+public/**/*

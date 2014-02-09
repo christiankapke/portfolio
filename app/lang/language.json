@@ -1,0 +1,389 @@
+{
+    "de": {
+        "name": "Christian Kapke",
+        "title": "Christian Kapke | Portfolio",
+        "description": "Portfolio von Christian Kapke aus Jena.",
+        "keywords": "Christian Kapke, Portfolio, Interface Designer, Webdesigner, Webdeveloper, Teamleiter",
+        "language": "de",
+        "url": "http://ckapke.de",
+        "teaser": "One-Pager als Portfolio-Website. Das moderne Design ist für unterschiedliche Ausgabegeräte optimiert und überzeugt mit schneller Ladezeit und hoher Performance. Die hand gecodete Website repräsentiert das fachliche Spektrum Christian Kapke im Bereich Frontend-Entwicklung.",
+        "twitter": {
+            "title": "Portfolio von Christian Kapke",
+            "creator": "@christiankapke",
+            "description": "Portfolio des UI-Designers und Frontend-Entwicklers Christian Kapke."
+        },
+        "header": {
+            "claim": "Portfolio von Christian Kapke",
+            "nav1": "Start",
+            "nav2": "Kenntnisse",
+            "nav3": "Arbeit",
+            "nav4": "Karriere",
+            "nav5": "Person",
+            "german": "Deutsch",
+            "english": "English"
+        },
+        "start": {
+            "item1": {
+                "title": "Christian Kapke",
+                "content": "Spezialist für <strong>Webdesign</strong>, <strong>E-Commerce</strong>, <strong>Social-Media</strong> und <strong>Coaching</strong>."
+            },
+            "item2": {
+                "title": "Webdesign",
+                "content": "Seit 1999 habe ich <strong>Erfahrung</strong> in der <strong>Planung</strong> und <strong>Umsetzung</strong> zeitgemäßer <strong>Webseiten</strong>. Als <strong>Senior Webdesigner</strong> arbeitete ich für internationale Kunden wie <strong>Microsoft, McDonalds, Strato</strong> uvm."
+            },
+            "item3": {
+                "title": "E-Commerce",
+                "content": "Als <strong>Senior UI-Designer</strong> bin ich derzeit an der <strong>Neuentwicklung</strong> des Frontends einer <strong>E-Commerce Shopsoftware</strong> für weltweit über <strong>80.000</strong> Installationen beteiligt."
+            },
+            "item4": {
+                "title": "Teamleitung",
+                "content": "Als <strong>Teamleader</strong> einer Softwarefirma habe ich einschlägige Erfahrung im <strong>Recruiting</strong>, der <strong>Personalführung</strong> und dem <strong>Coaching</strong> eines Teams hochspezialisierter Webexperten gesammelt."
+            }
+        },
+        "knowledge": {
+            "headline": "Kenntnisse",
+            "subline": "Mehrjährige Tätigkeit als <strong>Senior UI Designer</strong> in einer Softwarefirma. Einschlägige Berufspraxis im Bereich <strong>E-Commerce</strong> und <strong>Social Media</strong>.",
+            "item1": {
+                "title": "Frontend"
+            },
+            "item2": {
+                "title": "Teamleitung",
+                "personell": "Personalführung",
+                "organization": "Organisation",
+                "engagement": "Engagement",
+                "empathy": "Empathie",
+                "motivation": "Motivation",
+                "inspiration": "Inspiration"
+            },
+            "item3": {
+                "title": "Backend"
+            },
+            "item4": {
+                "title": "Grafikdesign"
+            },
+            "skills": {
+                "frontend": "Frontend-Entwicklung",
+                "ux": "UI / UX Design",
+                "backend": "Backend-Entwicklung",
+                "seo": "SEO",
+                "personell": "Personalführung",
+                "marketing": "Marketing",
+                "print": "Print-Design",
+                "event": "Eventmanagement"
+            }
+        },
+        "work": {
+            "headline": "Arbeit",
+            "subline": "Know-How in den Bereichen <strong>Webdesign</strong>, <strong>Grafikdesign</strong>, <strong>Fashion</strong> und <strong>Event-Management</strong>.",
+            "item1": {
+                "title": "Webdesign",
+                "content": "Über 10 Jahre Erfahrung als Webdesigner. Projekte mit Firmen wie <a href=\"http://www.bewerbungshomepage.de/article_15_16_Livekids-Microsoft.html\" target=\"_blank\">Microsoft</a>, <a href=\"http://www.bewerbungshomepage.de/article_44_16_McDonalds-Franchise-Web.html\" target=\"_blank\">McDonald's</a>, <a href=\"http://www.bewerbungshomepage.de/article_6_16_Produktpraesentation-Paypda-com.html\" target=\"_blank\">Ingenico</a> und vielen <a href=\"http://www.bewerbungshomepage.de/category_16_Webseiten.html\" target=\"_blank\">mehr</a>..."
+            },
+            "item2": {
+                "title": "Webentwicklung",
+                "content": "Erfahren in der Planung und Entwicklung dynamischer <a href=\"http://www.bewerbungshomepage.de/category_21_Webentwicklung.html\" target=\"_blank\">Webanwendungen</a>"
+            },
+            "item3": {
+                "title": "E-Commerce",
+                "content": "Langjährige <strong>Berufspraxis</strong> im Wachstumsmarkt eCommerce. Umfassendes <strong>Branchenverständnis</strong> und aktuelles technisches Know-How."
+            },
+            "item4": {
+                "title": "Social Web",
+                "content": "Erfahrung im Auf- und Ausbau von <a href=\"http://www.bewerbungshomepage.de/Site_Community.html\" target=\"_blank\">Online Communites</a> und <a href=\"http://www.bewerbungshomepage.de/Site_Marketing.html\" target=\"_blank\">Social Media Marketing</a>."
+            },
+            "item5": {
+                "title": "Fashion Design",
+                "content": "Ich entwerfe Motive für diverse Shirtlabels und Onlinedruckereien. Auf <a href=\"http://mtbshirts.de\" target=\"_blank\">mtbshirts.de</a> finden sich meine Mountainbike-Shirts."
+            },
+            "item6": {
+                "title": "Event-Management",
+                "content": "Über 40 internationale Bands traten auf Konzerten und Festivals auf, die von mir organisiert wurden."
+            }
+        },
+        "cv": {
+            "headline": "Karriere",
+            "subline": "Mehr als <strong>10 Jahre</strong> Erfahrung im Online-Business. Umfangreiche <strong>Projekterfahrung</strong>. Ausgeprägte <strong>unternehmerische</strong> Denk- und Arbeitsweise.",
+            "item1": {
+                "title": "Senior UI Designer",
+                "time": "aktuell",
+                "content": "Beteiligt an der <strong>Neuentwicklung</strong> einer E-Commerce Shopsoftware innerhalb eines interdisziplinären <strong>Scrum-Teams</strong>."
+            },
+            "item2": {
+                "title": "Teamleiter",
+                "time": "1,5 Jahre",
+                "content": "Als <strong>Head Of Frontend</strong> u.a. verantwortlich für <strong>Recruiting</strong>, <strong>Personalführung</strong> und <strong>Coaching</strong> von 15 Mitarbeitern. Weiterentwicklung des <strong>Frontends</strong> einer <strong>Shopsoftware</strong> mit über 80.000 Installationen weltweit."
+            },
+            "item3": {
+                "title": "UI Designer",
+                "time": "2 Jahre",
+                "content": "<strong>Optimierung</strong> und Weiterentwicklung des Frontends einer erfolgreichen <strong>E-Commerce</strong> Shopsoftware."
+            },
+            "item4": {
+                "title": "Senior Webdesigner",
+                "time": "2 Jahre",
+                "content": "Entwicklung mittlerer bis großer <strong>Webportale</strong> und <strong>Social-Communities</strong> für europäische und amerikanische Firmen."
+            },
+            "item5": {
+                "title": "Webdesigner",
+                "time": "1 Jahr",
+                "content": "<strong>Aufbau</strong> und <strong>Redesign</strong> kleiner bis mittelgroßer <strong>Webportale</strong> deutscher Unternehmen."
+            },
+            "item6": {
+                "title": "Art Director",
+                "time": "1 Jahr",
+                "content": "<strong>Design</strong>, <strong>Kreation</strong> und <strong>Marketing</strong> bei einem Fashion-Label."
+            },
+            "item7": {
+                "title": "Event-Management",
+                "time": "2 Jahre",
+                "content": "<strong>Organisation</strong> von Konzerten und Musikfestivals mit über 40 internationalen Bands. Hauptverantwortlich für <strong>Projektmanagement</strong>, <strong>Marketing</strong> und <strong>Booking</strong>."
+            },
+            "item8": {
+                "title": "Designerakademie",
+                "content": "<strong>Zert. Grafikdesigner</strong>. Farbenlehre, Typografie, Druckvorstufe, Workflow Grafik- und Mediendesign, Photoshop, Illustrator uvm."
+            },
+            "item9": {
+                "title": "ptm Akademie",
+                "content": "<strong>Webdesign- und Entwicklung</strong>. Java, SQL, XML, JavaScript, HTML, CSS uvm."
+            }
+        }
+        ,
+        "about": {
+            "headline": "Person",
+            "subline": "<strong>Unternehmerisch</strong> denken und <strong>verantwortungsvoll</strong> agieren, gute <strong>kommunikative</strong> Skills und eine <strong>ganzheitliche</strong> Denkweise.",
+            "item1": {
+                "title": "Intrapreneur",
+                "content": "<strong>Unternehmerisch</strong> denken und <strong>verantwortungsvoll</strong> handeln, das bringt meine Arbeitseinstellung auf den Punkt. <strong>Ich bin ein Macher</strong> und bringe Ideen voran. Meine Profession liegt in den Bereichen <strong>Internet</strong>, <strong>E-Commerce</strong>, <strong>Marketing</strong> und <strong>Personalführung</strong>."
+            },
+            "item2": {
+                "title": "Engagiert",
+                "content": "Auf der Suche nach <strong>Lösungen</strong> kenne ich keine Scheuklappen. Wenn mich ein Thema gepackt hat, bin ich mit <strong>Hingabe</strong> dabei. Dank ausgeprägter <strong>„Hands-On-Mentalität“</strong> bringe ich mich stets konstruktiv ein und übernehme gerne <strong>Verantwortung</strong>."
+            },
+            "item3": {
+                "title": "Vielseitig",
+                "content": "Vielseitigkeit und Aufgeschlossenheit zeichnen mich aus. Ich bin <strong>Musiker</strong> und <strong>Sportler</strong>, und habe eine Vorliebe für Theater, Museen und Literatur. In der Vergangenheit organisierte ich zudem <strong>Musikkonzerte</strong>, <strong>Kunstausstellungen</strong> und <strong>Lesungen</strong>."
+            },
+            "item4": {
+                "title": "Coach",
+                "content": "In der Mitarbeiterführung setze ich auf die Coaching-Methoden <strong>Persuader</strong> und <strong>Collaborative</strong>. Gute <strong>kommunikative</strong> Skills und ein sicheres Auftreten verbunden mit einem hohen Maß an <strong>Empathie</strong>, <strong>Kreativität</strong> und <strong>Belastbarkeit</strong> zeichnen mich aus."
+            },
+            "item5": {
+                "title": "Erfahren",
+                "content": "Umfangreiche <strong>Projekterfahrung</strong>, regelmäßige <strong>Weiterbildungen</strong> und mehrjährige <strong>Berufspraxis</strong> unterstreichen meine hohe fachliche Kompetenz."
+            },
+            "item6": {
+                "title": "Sportlich",
+                "content": "Ich bin passionierter <strong>Outdoorsportler</strong> und habe mehrfach die Alpen per Mountainbike überquert und erfolgreich einen Marathon absolviert. <strong>Selbstvertrauen</strong>, <strong>Konzentration</strong> und <strong>Ausdauer</strong> waren hierfür wichtige Grundlagen."
+            }
+        },
+        "footer": {
+            "website": "ckapke.de",
+            "version": "v1.0.6",
+            "year": "2014",
+            "name": "Christian Kapke",
+            "city": "Jena",
+            "country": "Deutschland",
+            "telnr": "Telefonnummer",
+            "tel": "+49 3641 559 210",
+            "mailtxt": "e-Mail",
+            "mail": "contact@ckapke.de",
+            "blogtxt": "Blog",
+            "portfolio": "Portfolio",
+            "technologies": "wurde erstellt mit: HTML5, CSS3, jQuery, Less, Bootstrap, Node.js, Grunt, Bower, SVG, Webfonts, gZip, SublimeText, Illustrator, Photoshop, Erfahrung"
+        },
+        "credits": "Handgecodet mit <i class=\"icon-ck-heart\"></i> von <a href=\"http://www.christian-kapke.de\" target=\"_blank\" title=\"Christian Kapke\">Christian Kapke</a>"
+    },
+    "en": {
+        "name": "Christian Kapke",
+        "title": "Christian Kapke | Portfolio",
+        "language": "en",
+        "description": "Portfolio of Christian Kapke from Germany",
+        "keywords": "Christian Kapke, Portfolio, Interface Design, Web Design, Web Development, Team Leader",
+        "url": "http://ckapke.de",
+        "teaser": "This “one-pager“ is intended to be a portfolio website.  Its modern design has been optimized for all different kinds of display devices.  Its advantage is that it lgrunt oads quickly and does not decrease webpage performance.  It has been coded by hand and represents Christian Kapke’s technical front-end acumen.",
+        "twitter": {
+            "title": "Portfolio of Christian Kapke",
+            "creator": "@christiankapke",
+            "description": "This “one-pager“ is intended to be a portfolio website. Its modern design has been optimized for all different kinds of display devices. Its advantage is that it loads quickly and does not decrease webpage performance. It has been coded by hand and represents current technical front-end skills."
+        },
+        "header": {
+            "claim": "This is Christian Kapke’s electronic portfolio",
+            "nav1": "Start",
+            "nav2": "Knowledge",
+            "nav3": "Work",
+            "nav4": "Career",
+            "nav5": "About",
+            "german": "German",
+            "english": "English"
+        },
+        "start": {
+            "item1": {
+                "title": "Christian Kapke",
+                "content": "Specialist for <strong>web design</strong>, <strong>e-commerce</strong>, <strong>social media</strong> and <strong>coaching</strong>."
+            },
+            "item2": {
+                "title": "Web Design",
+                "content": "I have been intricately involved in the <strong>planning</strong> and <strong>implementation</strong> of cutting-edge <strong>websites</strong> since 1999. As a <strong>senior web designer</strong> I have worked on projects for international customers such as <strong>Microsoft Corporation</strong>, <strong>McDonalds</strong>, <strong>Strato</strong> and many more."
+            },
+            "item3": {
+                "title": "E-Commerce",
+                "content": "My current projects involve new and innovative <strong>front-end development</strong> challenges for an e-commerce <strong>software leader</strong> that has over 80,000 shops around the world."
+            },
+            "item4": {
+                "title": "Management",
+                "content": "As <strong>Department Head</strong> within a leading software company, I have been able to gain intensive, hands-on experience in <strong>recruiting</strong>, <strong>people-management</strong> and <strong>coaching</strong> of a team of highly specialized web experts."
+            }
+        },
+        "knowledge": {
+            "headline": "Technical Knowledge",
+            "subline": "Several years of experience as a <strong>Senior User Interface Designer</strong> in a leading Software firm. Relevant and intensive professional experience in both <strong>e-commerce</strong> and <strong>social media</strong>.",
+            "item1": {
+                "title": "Frontend"
+            },
+            "item2": {
+                "title": "Management",
+                "personell": "People Management ",
+                "organization": "Organization",
+                "engagement": "Engagement",
+                "empathy": "Empathy",
+                "motivation": "Motivation"
+            },
+            "item3": {
+                "title": "Backend"
+            },
+            "item4": {
+                "title": "Graphic Design"
+            },
+            "skills": {
+                "frontend": "Web development",
+                "ux": "UI / UX design",
+                "backend": "Backend development",
+                "seo": "SEO",
+                "personell": "People-management ",
+                "marketing": "Marketing",
+                "print": "Print design",
+                "event": "Event management"
+            }
+        },
+        "work": {
+            "headline": "Working Experience",
+            "subline": "Know-how in the areas of <strong>web design</strong>, <strong>graphic design</strong>, <strong>fashion</strong> and <strong>event management</strong>.",
+            "item1": {
+                "title": "Web Design",
+                "content": "More than 10 years’ experience as a web designer. Projects with companies such as <a href=\"http://www.bewerbungshomepage.de/article_15_16_Livekids-Microsoft.html\" target=\"_blank\">Microsoft</a>, <a href=\"http://www.bewerbungshomepage.de/article_44_16_McDonalds-Franchise-Web.html\" target=\"_blank\">McDonald's</a>, <a href=\"http://www.bewerbungshomepage.de/article_6_16_Produktpraesentation-Paypda-com.html\" target=\"_blank\">Ingenico</a> and many <a href=\"http://www.bewerbungshomepage.de/category_16_Webseiten.html\" target=\"_blank\">more</a>..."
+            },
+            "item2": {
+                "title": "Web Development",
+                "content": "Experienced in the planning and development of dynamic <a href=\"http://www.bewerbungshomepage.de/category_21_Webentwicklung.html\" target=\"_blank\">web applications</a>."
+            },
+            "item3": {
+                "title": "E-Commerce",
+                "content": "Many years of <strong>professional experience</strong> in the growing area of e-commerce. Comprehensive understanding of e-commerce and up-to-date, technical know how."
+            },
+            "item4": {
+                "title": "Social Web Experience",
+                "content": "Experience in the construction and expansion of <a href=\"http://www.bewerbungshomepage.de/Site_Community.html\" target=\"_blank\">online communities</a> and <a href=\"http://www.bewerbungshomepage.de/Site_Marketing.html\" target=\"_blank\">social media marketing</a>."
+            },
+            "item5": {
+                "title": "Fashion Design",
+                "content": "I develop graphical concepts for shirt labels and online printing companies. <a href=\"http://mtbshirts.de\" target=\"_blank\">mtbshirts.de</a> provides a current and representative example of off-road biking shirts that I have designed."
+            },
+            "item6": {
+                "title": "Event Management",
+                "content": "I have organized concerts and music festivals at which over 40 international and renowned bands have played."
+            }
+        },
+        "cv": {
+            "headline": "Career",
+            "subline": "I have more than <strong>10 years professional experience</strong> in various online businesses.  This includes comprehensive <strong>project management</strong> experience, as well as a dedicated <strong>entrepreneurial spirit</strong> and work ethic.",
+            "item1": {
+                "title": "Senior UI Designer",
+                "time": "current",
+                "content": "I have been a key player in the <strong>scrum-based</strong>, interdisciplinary development of <strong>new</strong> e-commerce software."
+            },
+            "item2": {
+                "title": "Lead Web Designer ",
+                "time": "1.5 years",
+                "content": "As <strong>Head of the Front End Team</strong>, I was responsible for <strong>recruiting</strong>, <strong>management</strong> and <strong>coaching</strong> of 15 technical employees. This was key to the continued development of <strong>leading</strong> e-commerce software solution, one that at the time already had an installed base of over 80,000 shops."
+            },
+            "item3": {
+                "title": "UI Designer",
+                "time": "2 years",
+                "content": "<strong>Optimization</strong> and continued <strong>development</strong> of the front end of a successful <strong>e-commerce</strong> shop solution."
+            },
+            "item4": {
+                "title": "Senior Web Designer",
+                "time": "2 years",
+                "content": "Web development of medium to large sized web-based <strong>portals</strong> and <strong>social communities</strong> within European and American corporations."
+            },
+            "item5": {
+                "title": "Web Designer",
+                "time": "1 year",
+                "content": "<strong>Setup</strong> and <strong>re-design</strong> of small to medium size <strong>web portals</strong> within Germany."
+            },
+            "item6": {
+                "title": "Creative Director",
+                "time": "1 year",
+                "content": "<strong>Creation</strong>, <strong>design</strong> and <strong>marketing</strong> of a fashion label."
+            },
+            "item7": {
+                "title": "Event Management",
+                "time": "2 years",
+                "content": "<strong>Organization</strong> of concerts and music festivals with over 40 international bands. Acted as the primary point-person for <strong>project management</strong>, <strong>marketing</strong> and <strong>scheduling</strong> of the entire events."
+            },
+            "item8": {
+                "title": "Design Academy",
+                "content": "<strong>Certified graphic designer</strong>. Intricate and profound knowledge of chromatics, typography, printing, workflow graphics and media design, Photoshop, Illustrator, and a lot more."
+            },
+            "item9": {
+                "title": "ptm Academy",
+                "content": "<strong>Web design</strong> and web development. Java SQL, XML, JavaScript, HTML, CSS, etc."
+            }
+        }
+        ,
+        "about": {
+            "headline": "About me",
+            "subline": "I possess an <strong>entrepreneurial spirit</strong>, I go beyond the call of duty. One of my strengths is my <strong>communication skills</strong> and I am consistently known for <strong>thinking “out of the box“</strong>.",
+            "item1": {
+                "title": "Entrepreneur",
+                "content": "My work ethic can be summed up in the following manner: I always think and act in the interest of the company. I am someone who subscribes to the adage of “just do it“ and I am known for bringing fresh new ideas to the table. I feel most “at home“ in the areas of <strong>e-commerce</strong>, <strong>marketing</strong> and <strong>people-management</strong>."
+            },
+            "item2": {
+                "title": "Involved",
+                "content": "When I look for <strong>solutions</strong>, I do not wear blinders. Once a new project or idea comes my way, I give it my all. Because I am a <strong>hands-on</strong> kind of person, I always bring constructive suggestions and ideas “to the party“. I am someone who likes to take on additional <strong>responsability</strong>."
+            },
+            "item3": {
+                "title": "Diversity",
+                "content": "I am known for having talent in a number of different areas and for being open for new ideas. I am a <strong>musician</strong> and an <strong>athlete</strong>. I love the theater, museums and literature. In the past, I have organized <strong>concerts</strong>, art <strong>exhibitions</strong> and professional <strong>readings</strong> of classical literature."
+            },
+            "item4": {
+                "title": "Coach",
+                "content": "When managing others, I tend to employ the coaching methodology of “collaborative pursuation“. Good <strong>communication</strong> skills and self-confidence, combined with a health dose of <strong>empathy</strong>, <strong>creativity</strong> and <strong>resilience</strong> represent the reasons for many of my successes in the past."
+            },
+            "item5": {
+                "title": "Experience",
+                "content": "I have considerable project and project management experience.  Continual <strong>professional development</strong>, as well as the results of many years of <strong>field experience</strong> are the best evidence of my professional qualifications."
+            },
+            "item6": {
+                "title": "The Athlete",
+                "content": "My ultimate passion is <strong>outdoor sports</strong>. I have crossed the Alps with my mountain bike several times and I have even completed a marathon. <strong>Self-confidence</strong>, <strong>concentration</strong> and <strong>stamina</strong> were the most important ingredients to my successes in all of these events."
+            }
+        },
+        "footer": {
+             "website": "ckapke.de",
+            "version": "v1.0.6",
+            "year": "2014",
+            "name": "Christian Kapke",
+            "city": "Jena",
+            "country": "Germany",
+            "telnr": "Telephone Number",
+            "tel": "+49 3641 559 210",
+            "mailtxt": "Mail",
+            "mail": "contact@ckapke.de",
+            "blogtxt": "Blog",
+            "portfolio": "Portfolio",
+            "technologies": "was built with: HTML5, CSS3, jQuery, Less, Bootstrap, Node.js, Grunt, Bower, SVG, Webfonts, gZip, SublimeText, Illustrator, Photoshop, Experience"
+        },
+        "credits": "Handwritten with <i class=\"icon-ck-heart\"></i> by <a href=\"http://www.christian-kapke.de\" target=\"_blank\" title=\"Christian Kapke\">Christian Kapke</a>"
+    }
+}
