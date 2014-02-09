@@ -30,7 +30,7 @@
             </a>
           </li>
           <li class="header-localization">
-              <a href="http://ckapke.de" class="link active-de" title="{{header.german}}">de</a> | <a href="index_en.html" class="link active-en" title="{{header.english}}">en</a>
+              <a href="index.html" class="link active-de" title="{{header.german}}">de</a> | <a href="index_en.html" class="link active-en" title="{{header.english}}">en</a>
           </li>
         </ul>
       </div>
