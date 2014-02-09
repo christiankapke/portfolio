@@ -188,8 +188,7 @@
             "blogtxt": "Blog",
             "portfolio": "Portfolio",
             "technologies": "wurde erstellt mit: HTML5, CSS3, jQuery, Less, Bootstrap, Node.js, Grunt, Bower, SVG, Webfonts, gZip, SublimeText, Illustrator, Photoshop, Erfahrung"
-        },
-        "credits": "Handgecodet mit <i class=\"icon-ck-heart\"></i> von <a href=\"http://www.christian-kapke.de\" target=\"_blank\" title=\"Christian Kapke\">Christian Kapke</a>"
+        }
     },
     "en": {
         "name": "Christian Kapke",
@@ -379,7 +378,6 @@
             "blogtxt": "Blog",
             "portfolio": "Portfolio",
             "technologies": "was built with: HTML5, CSS3, jQuery, Less, Bootstrap, Node.js, Grunt, Bower, SVG, Webfonts, gZip, SublimeText, Illustrator, Photoshop, Experience"
-        },
-        "credits": "Handwritten with <i class=\"icon-ck-heart\"></i> by <a href=\"http://www.christian-kapke.de\" target=\"_blank\" title=\"Christian Kapke\">Christian Kapke</a>"
+        }
     }
 }
