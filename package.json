@@ -1,6 +1,6 @@
 {
-  "name": "Portfolio",
-  "version": "0.2.0",
+  "name": "portfolio-ckapke",
+  "version": "1.0.8",
   "author": "Christian Kapke",
   "private": true,
   "devDependencies": {
@@ -28,6 +28,7 @@
     "grunt-convert": "~0.1.8",
     "grunt-contrib-jshint": "~0.8.0",
     "grunt-contrib-connect": "~0.6.0",
-    "grunt-prompt": "~0.2.0"
+    "grunt-bumpup": "~0.5.0",
+    "grunt-text-replace": "~0.3.11"
   }
 }
