@@ -3,6 +3,10 @@
   "version": "1.1.1",
   "author": "Christian Kapke",
   "private": true,
+  "scripts": {
+    "test": "grunt test",
+    "start": "grunt init"
+  },
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-contrib-uglify": "*",
