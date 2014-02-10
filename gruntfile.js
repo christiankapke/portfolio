@@ -2,28 +2,6 @@ module.exports = function(grunt) {
 
   require("matchdep").filterDev("grunt-*").forEach(grunt.loadNpmTasks);
 
-  grunt.loadNpmTasks('grunt-contrib-less');
-  grunt.loadNpmTasks('grunt-contrib-copy');
-  grunt.loadNpmTasks('grunt-svg2png');
-  grunt.loadNpmTasks('grunt-htmlhint');
-  grunt.loadNpmTasks('grunt-contrib-jshint');
-  grunt.loadNpmTasks("grunt-bake");
-  grunt.loadNpmTasks('grunt-svg2png');
-  grunt.loadNpmTasks('grunt-contrib-imagemin');
-  grunt.loadNpmTasks('grunt-contrib-compress');
-  grunt.loadNpmTasks('grunt-processhtml');
-  grunt.loadNpmTasks('grunt-uncss');
-  grunt.loadNpmTasks('grunt-contrib-htmlmin');
-  grunt.loadNpmTasks('grunt-contrib-concat');
-  grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.loadNpmTasks('grunt-contrib-cssmin');
-  grunt.loadNpmTasks('grunt-ftp-deploy');
-  grunt.loadNpmTasks('grunt-open');
-  grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.loadNpmTasks('grunt-contrib-connect');
-  grunt.loadNpmTasks('grunt-bumpup');
-  grunt.loadNpmTasks('grunt-text-replace');
-
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
@@ -311,11 +289,6 @@ module.exports = function(grunt) {
         options: {
           port: 8089,
           base: 'dev'
-        },
-        open: {
-          target: 'http://localhost:8089', // target url to open
-          appName: 'open', // name of the app that opens, ie: open, start, xdg-open
-          callback: function() {} // called when the app has opened
         }
       },
       public: {
@@ -354,7 +327,7 @@ module.exports = function(grunt) {
       options: {
         livereload: true,
       },
-      // Check for changes in /app/index.html 
+      // Check for changes in /app/index.html
       // save result to /dev/index.html
       index: {
         files: ['app/index.html'],
@@ -373,7 +346,7 @@ module.exports = function(grunt) {
           tasks: ['copy:init'],
       },
       // Check for changes in /app/img/svg/,
-      // create new files in /dev/img/ *.svgz 
+      // create new files in /dev/img/ *.svgz
       svg: {
           files: ['app/img/svg/*.svg'],
           tasks: ['compress:svg'],
@@ -398,10 +371,10 @@ module.exports = function(grunt) {
 });
 
   // Default development task. Just type 'grunt' into prompt
-  // It will start an local webserver and likewise the watch task 
+  // It will start an local webserver and likewise the watch task
   grunt.registerTask('default', ['connect:dev', 'watch']);
 
-  // Initialization task 
+  // Initialization task
     grunt.registerTask('init', [
                               'copy:init',
                               'bake:de',
@@ -428,7 +401,24 @@ module.exports = function(grunt) {
                                 'htmlmin',
                                 'htmlhint',
                                 'open:public',
-                                'connect:public:keepalive',
+                                'connect:public:keepalive'
+                                ]);
+
+  grunt.registerTask('test', [
+                                'copy:public',
+                                'bake',
+                                'replace',
+                                'processhtml',
+                                'less',
+                                'uncss',
+                                'clean:public',
+                                'cssmin',
+                                'uglify',
+                                'compress:svg',
+                                'svg2png',
+                                'imagemin',
+                                'htmlmin',
+                                'htmlhint'
                                 ]);
 
   // Running `grunt live` to push the `public` version to the FTP server
