@@ -10,9 +10,11 @@ Design + Frontend: [Christian Kapke](http://www.christian-kapke.de)
 
 Responsive Grid: [Bootstrap](http://www.getbootstrap.com)
 
+CSS pre-processor: [Less](http://lesscss.org/)
+
 Javascript: [jQuery](http://www.jquery.com)
 
-Scroll-Effect: [Fabio Mangolini](http://www.responsivewebmobile.com)
+Smooth scrolling: [Fabio Mangolini](http://www.responsivewebmobile.com)
 
 Honorable mention: [Jan Raasch](http://www.janraasch.com)
 
