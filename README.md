@@ -14,7 +14,7 @@ Javascript: [jQuery](http://www.jquery.com)
 
 Scroll-Effect: [Fabio Mangolini](http://www.responsivewebmobile.com)
 
-Honorable Mention: [Jan Raasch](http://www.janraasch.com)
+Honorable mention: [Jan Raasch](http://www.janraasch.com)
 
 [travis-url]: http://travis-ci.org/christiankapke/portfolio
 [travis-image]: https://secure.travis-ci.org/christiankapke/portfolio.png?branch=master
