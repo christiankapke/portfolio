@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "grunt": "~0.4.2",
+    "grunt-cli": "0.1.13",
     "grunt-contrib-uglify": "*",
     "grunt-contrib-watch": "*",
     "grunt-uncss": "~0.1.9",
