@@ -1,9 +1,7 @@
 module.exports = function(grunt) {
 
-  require("matchdep").filterDev("grunt-*").forEach(grunt.loadNpmTasks);
-  
-  grunt.loadNpmTasks('grunt-jquerybuilder');
-  
+  require('load-grunt-tasks')(grunt);
+
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
