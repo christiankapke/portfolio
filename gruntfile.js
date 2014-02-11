@@ -99,7 +99,7 @@ module.exports = function(grunt) {
     concat: {
       js: {
         // predefines the order of merging
-        src: ['app/js/jquery.custom.js', 'app/js/bootstrap.js', 'app/js/lazyload.js', 'app/js/collapse.js', 'app/js/script.js'],
+        src: ['bower_components/jquery/jquery.js', 'app/js/bootstrap.js', 'app/js/lazyload.js', 'app/js/collapse.js', 'app/js/script.js'],
         dest: 'dev/js/main.js',
       }
     },
@@ -321,19 +321,6 @@ module.exports = function(grunt) {
       }
     },
 
-    // jQuery custum package builder
-    jquery: {
-      // the parts you want to exclude from your build
-      // possible values ['ajax', 'css', 'deprecated', 'dimensions', 'effects', 'offset']
-      exclude: ['ajax', 'deprecated'],
-      // the jQuery version (currently only 1.8.3 is supported) - defaults to 1.8.3
-      version: '1.8.3',
-      // output location (relative to your grunt.js file location)
-      dest: 'app/js/jquery.custom.js',
-      // minify the output (true or false) - defaults to false
-      minify: true
-    },
-
     // Running `grunt watch` will watch for changes
     watch: {
       // Activate live reloading
@@ -392,7 +379,6 @@ module.exports = function(grunt) {
                               'copy:init',
                               'bake:de',
                               'replace',
-                              'jquery',
                               'concat',
                               'less',
                               'compress:svg'

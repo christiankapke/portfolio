@@ -34,7 +34,6 @@
     "grunt-contrib-connect": "~0.6.0",
     "grunt-bumpup": "~0.5.0",
     "grunt-text-replace": "~0.3.11",
-    "grunt-jquerybuilder": "~0.1.4",
     "load-grunt-tasks": "~0.3.0"
   }
 }

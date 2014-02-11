@@ -1,6 +1,6 @@
 jQuery(document).ready(function(){
-  
-//GLOBALS 
+
+//GLOBALS
   //Navigation variables
   var timeline = new Array();
   var offsets = new Array();
@@ -11,7 +11,7 @@ jQuery(document).ready(function(){
   var sectionHeight = 0;
 
   var page = $('.page');
-  
+
 
   sizeSection();
   generateNavigationTimeline();
@@ -41,21 +41,21 @@ jQuery(document).ready(function(){
     sizeSection();
   });
 
-  //SCROLL  
+  //SCROLL
   $(window).bind('scroll', function() {
     //Calls the function to retrieve the closest section to top and and highlight it
     var indicator = closestSection($(window).scrollTop());
     navSelect(timeline[indicator]);
-    
+
     //show or hide the scroll to top button depending on the position from top
     if ($(this).scrollTop() > 300) {
           $('#scrollToTop').fadeIn('fast');
       } else {
           $('#scrollToTop').fadeOut('fast');
-      }  
+      }
   });
 
-  
+
 
 
 /**********************************
@@ -67,7 +67,7 @@ jQuery(document).ready(function(){
         var controls = []; //new array to contain abs values of distance.
 
         $.each(offsets, function(){
-          controls.push(Math.abs(this - y + 400));       
+          controls.push(Math.abs(this - y + 400));
             //stores the abs value of the distance from current scroll position to
             //offsetTop of each section.
         })
@@ -94,7 +94,7 @@ jQuery(document).ready(function(){
     function sizeSection() {
       sectionHeight = $(window).height();
       sectionWidth = $(window).width();
-      
+
       $(page).css({'min-height': sectionHeight}); //sets the min-height of all the sections
     }
 
@@ -111,7 +111,7 @@ jQuery(document).ready(function(){
 
 
 /*******************************
-      KIND OF ISOTOPE EFFECT 
+      KIND OF ISOTOPE EFFECT
 ********************************/
   $('#work > li > a').click(function(e) {
     e.preventDefault();
@@ -127,13 +127,13 @@ jQuery(document).ready(function(){
     items = $('.portfolio-item');
 
     if (filter == '*') {
-      items.animate({ height: 'show', opacity: 1 }, 'slow');  
+      items.animate({ height: 'show', opacity: 1 }, 'slow');
     }
     else if (filter != '*') {
       items.animate({width: 'hide', height: 'hide', opacity: 0 }, 'slow');
-      items.filter('.'+filter).animate({ width: 'show', height: 'show',opacity: 1 }, 'slow'); 
+      items.filter('.'+filter).animate({ width: 'show', height: 'show',opacity: 1 }, 'slow');
     }
-  }); 
+  });
 });
 
 $(document).ready(function () {
