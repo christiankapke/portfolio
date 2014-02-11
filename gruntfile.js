@@ -323,7 +323,7 @@ module.exports = function(grunt) {
       }
     },
 
-    // jQuery package builder
+    // jQuery custum package builder
     jquery: {
       // the parts you want to exclude from your build
       // possible values ['ajax', 'css', 'deprecated', 'dimensions', 'effects', 'offset']
