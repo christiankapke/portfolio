@@ -99,7 +99,7 @@ module.exports = function(grunt) {
     concat: {
       js: {
         // predefines the order of merging
-        src: ['bower_components/jquery/jquery.js', 'app/js/bootstrap.js', 'app/js/lazyload.js', 'app/js/collapse.js', 'app/js/script.js'],
+        src: ['bower_components/jquery/jquery.min.js', 'app/js/bootstrap.js', 'app/js/lazyload.js', 'app/js/collapse.js', 'app/js/script.js'],
         dest: 'dev/js/main.js',
       }
     },
