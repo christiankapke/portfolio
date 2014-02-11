@@ -1,4 +1,4 @@
-Portfolio [![Build Status][travis-image]][travis-url] [![devDependency Status][devdepstat-image]][devdepstat-url]
+Portfolio [![Build Status][travis-image]][travis-url] [![devDependency Status][devdepstat-image]][devdepstat-url] [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 =========
 Fully responsive One Page Portfolio ready to use with [node.js](http://nodejs.org), [Grunt.js](http://gruntjs.com) and [Bower](http://bower.io).
 
