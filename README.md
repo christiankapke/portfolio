@@ -1,4 +1,4 @@
-Portfolio [![Build Status][travis-image]][travis-url]
+Portfolio [![Build Status][travis-image]][travis-url] [![devDependency Status][devdepstat-image]][devdepstat-url]
 =========
 Fully responsive One Page Portfolio ready to use with [node.js](http://nodejs.org), [Grunt.js](http://gruntjs.com) and [Bower](http://bower.io).
 
@@ -20,3 +20,5 @@ Honorable mention: [Jan Raasch](http://www.janraasch.com)
 
 [travis-url]: http://travis-ci.org/christiankapke/portfolio
 [travis-image]: https://secure.travis-ci.org/christiankapke/portfolio.png?branch=master
+[devdepstat-url]: https://david-dm.org/christiankapke/portfolio#info=devDependencies
+[devdepstat-image]: https://david-dm.org/christiankapke/portfolio/dev-status.png
