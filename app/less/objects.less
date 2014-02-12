@@ -23,7 +23,7 @@
     &:focus,
     &:active,
     &.enabled {
-      color: @color1;
+      color: @color4;
       text-decoration: none;
     }
   }
@@ -45,7 +45,7 @@
 // Language support
 .lang-de .active-de,
 .lang-en .active-en {
-  color: @color1;
+  color: @color4;
   text-decoration: none;
 }
 
@@ -81,7 +81,7 @@
       line-height: 1.3em;
       margin: 0;
       padding: 0 0.2em;
-      background: @color2;
+      background: @color4;
       color: @color3;
     }
   }
@@ -93,14 +93,14 @@
         display: inline-block;
         padding: 5px 10px;
         margin: 0;
-        background: @color2;
-        color: @color3;
+        background: @color3;
+        color: @color2;
     }
     .dark {
         padding: 10px 15px;
         margin: 0;
-        background: @color3;
-        color: @color2;
+        background: @color4;
+        color: @color3;
         margin-left: 2em;
         font-family: 'Roboto', sans-serif;
     }
@@ -108,7 +108,7 @@
 
 // Section divider
 .section-divider {
-  border-top: 1px solid @color3;
+  border-top: 1px solid @color4;
   background: @color1;
   font-size: 1.3em;
   line-height: 1.2em;
@@ -117,8 +117,8 @@
       display: block;
       width: 55px;
       background: transparent;
-      color: @color3;
-      border: 1px solid @color3;
+      color: @color4;
+      border: 1px solid @color4;
       border-top-color: @color1;
       padding: 9px 10px;
       margin: -1px auto 0;
@@ -126,15 +126,15 @@
       text-align: center;
     }
   &:hover a {
-    background: @color3;
+    background: @color4;
     color: @color1;
-    border-top-color: @color3;
+    border-top-color: @color4;
   }
 }
 
 // Info Box
 .info-box {
-  margin-top: 2em;
+  margin-top: 4em;
   .info-box-item {
     .info-box-headline {
       font: 100 2.5em/1.2em 'Roboto', sans-serif;
@@ -156,18 +156,16 @@
     }
     .info-box-icon {
       position: relative;
-      border-radius: 15% 0;
-      border: 1px solid @color3;
-      background: @color2;
+      background: transparent;
       display: inline-block;
       overflow: hidden;
       text-align: center;
-      color: @color3;
+      color: @color4;
       width: 9em;
       height: 9em;
-      line-height: 13em;
+      line-height: 0em;
       i {
-        font-size: 5.5em;
+        font-size: 7em;
       }
     }
   }
@@ -175,6 +173,9 @@
 
 
 // Skill chart
+.skill {
+  margin-top: 1em;
+}
 .skill-chart {
   max-width: 460px;
   margin: 50px auto 0;
@@ -190,12 +191,13 @@
     > span:last-child {
       display: block;
       height: 5px;
-      background: @color2;
+      background: @color1;
       border-radius: 3px;
+      border: 1px solid @color4;
       > span {
         display: block;
         height: 100%;
-        background: @color3;
+        background: @color4;
       }
     }
   }
@@ -232,12 +234,12 @@
     white-space: nowrap;
     font-weight: 400;
     text-decoration: none;
-    border-bottom: 2px solid @color1;
+    border-bottom: 2px solid @color4;
     &:hover,
     &:focus {
-      color: @color2;
-      border-bottom: 2px solid @color1;
-      background: @color1;
+      color: @color3;
+      border-bottom: 2px solid @color4;
+      background: @color4;
     }
   }
 }
@@ -278,13 +280,13 @@
     color: @color2;
     &:hover,
     &:focus {
-      color: @color1;
+      color: @color4;
     }
   }
   strong {
     font-weight: 400;
-    background: @color1;
-    color: @color2;
+    background: @color4;
+    color: @color3;
     padding: 0 3px;
   }
   .info-headline {
@@ -297,7 +299,7 @@
     color: @color2;
     cursor: pointer;
     i {
-      color: @color1;
+      color: @color4;
     }
   }
   .info-content {
@@ -327,7 +329,7 @@
     margin: -1px auto 0;
     width: 55px;
     text-align: center;
-    color: @color3;
+    color: @color2;
     background: @color1;
     text-decoration: none;
     border: 1px solid @color3;
@@ -335,7 +337,7 @@
     font-size: 1.1em ;
     &:hover,
     &:focus {
-      color: @color2;
+      color: @color1;
       background: @color3;
       border-bottom: 1px solid @color3;
     }
@@ -388,10 +390,14 @@
   padding: 1.3em 0;
   background: @color3;
   color: @color2;
-  border: 1px solid @color1;
+  border: 1px solid @color4;
   border-width: 1px 0 0;
   font-size: 0.8em;
+  i {
+    color: @color4;
+  }
   a {
-    color: @color1;
+    color: @color2;
+    text-decoration: underline;
   }
 }
