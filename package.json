@@ -36,6 +36,7 @@
     "grunt-text-replace": "~0.3.11",
     "load-grunt-tasks": "~0.3.0",
     "load-grunt-configs": "~0.3.1",
-    "time-grunt": "~0.2.9"
+    "time-grunt": "~0.2.9",
+    "jshint-stylish": "~0.1.5"
   }
 }
