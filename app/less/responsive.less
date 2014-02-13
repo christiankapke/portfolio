@@ -2,8 +2,6 @@
 // Todo: Better modularization
 
 @media (max-width: @screen-md) {
-  // Responsive hack
-
   .page {
     font-size: 14px;
   }
@@ -32,12 +30,14 @@
         border: 0;
       }
       .info-box-icon {
-        min-width: 12em;
+        width: 13em;
+        height: 13em;
+        line-height: 20em;
         margin-top: 2em;
         background: transparent;
-        border-radius: 0;
-        border: 0;
-        color: @color4;
+        border-radius: 50%;
+        border: 1px solid @color2;
+        color: @color3;
         i {
           font-size: 9em;
         }
