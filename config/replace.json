@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "src": [
+            "dev/*.html"
+        ],
+        "dest": "dev/",
+        "replacements": [
+            {
+                "from": "{{%release.version%}}",
+                "to": "<%= pkg.version %>"
+            }
+        ]
+    }
+}

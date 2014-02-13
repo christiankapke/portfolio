@@ -1,0 +1,7 @@
+{
+    "all": {
+        "files": {
+            "public/js/main.min.js": "dev/js/main.js"
+        }
+    }
+}

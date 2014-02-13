@@ -1,0 +1,9 @@
+{
+    "public": [
+        "public/css/main.css",
+        "public/js/main.js"
+    ],
+    "live": [
+        "public"
+    ]
+}

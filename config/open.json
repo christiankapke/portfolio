@@ -1,0 +1,8 @@
+{
+    "public": {
+        "path ": "http://localhost:8090"
+    },
+    "live": {
+        "path ": "http://ckapke.de/"
+    }
+}

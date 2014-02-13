@@ -1,0 +1,18 @@
+{
+    "dev": {
+        "options": {
+            "port": 8089,
+            "base": "dev"
+        }
+    },
+    "public": {
+        "options": {
+            "port": 8090,
+            "base": "public"
+        },
+        "open": {
+            "target": "http://localhost:8090",
+            "appName": "open"
+        }
+    }
+}

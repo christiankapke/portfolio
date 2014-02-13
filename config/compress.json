@@ -1,0 +1,16 @@
+{
+    "svg": {
+        "options": {
+            "mode": "gzip"
+        },
+        "files": [
+            {
+                "expand": true,
+                "cwd": "app/img/svg/",
+                "src": "*.svg",
+                "dest": "dev/img/",
+                "ext": ".svgz"
+            }
+        ]
+    }
+}

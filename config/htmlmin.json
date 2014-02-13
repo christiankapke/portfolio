@@ -1,0 +1,12 @@
+{
+    "dist": {
+        "options": {
+            "removeComments": true,
+            "collapseWhitespace": true
+        },
+        "files": {
+            "public/index.html": "public/index.html",
+            "public/index_en.html": "public/index_en.html"
+        }
+    }
+}

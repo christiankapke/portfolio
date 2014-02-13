@@ -1,0 +1,13 @@
+{
+    "minify": {
+        "options": {
+            "noAdvanced": true
+        },
+        "expand": true,
+        "cwd": "public/css/",
+        "src": [
+            "main.clean.min.css"
+        ],
+        "dest": "public/css/"
+    }
+}

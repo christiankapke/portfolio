@@ -1,0 +1,16 @@
+{
+    "bitwise": true,
+    "eqeqeq": true,
+    "forin": true,
+    "indent": 4,
+    "quotmark": "double",
+    "latedef": true,
+    "noarg": true,
+    "nonew": true,
+    "plusplus": true,
+    "undef": true,
+    "unused": true,
+    "strict": true,
+    "freeze": true,
+    "node": true
+}

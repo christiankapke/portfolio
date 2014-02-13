@@ -1,0 +1,73 @@
+{
+    "options": {
+        "livereload": true
+    },
+    "index": {
+        "files": [
+            "app/index.html"
+        ],
+        "tasks": [
+            "processhtml:dev",
+            "bake",
+            "replace",
+            "less",
+            "concat",
+            "htmlhint"
+        ]
+    },
+    "bake": {
+        "files": [
+            "app/templates/**",
+            "app/lang/**"
+        ],
+        "tasks": [
+            "bake",
+            "replace",
+            "htmlhint"
+        ]
+    },
+    "copy": {
+        "files": [
+            "app/img/**",
+            "app/fonts/**"
+        ],
+        "tasks": [
+            "copy:init"
+        ]
+    },
+    "svg": {
+        "files": [
+            "app/img/svg/*.svg"
+        ],
+        "tasks": [
+            "compress:svg"
+        ]
+    },
+    "less": {
+        "files": [
+            "app/less/**/*.less"
+        ],
+        "tasks": [
+            "less"
+        ]
+    },
+    "jshint": {
+        "files": [
+            "app/lang/*.json",
+            "gruntfile.js",
+            "bower.json",
+            "package.json"
+        ],
+        "tasks": [
+            "jshint"
+        ]
+    },
+    "concat": {
+        "files": [
+            "app/js/**/*.js"
+        ],
+        "tasks": [
+            "concat"
+        ]
+    }
+}
