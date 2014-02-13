@@ -92,10 +92,10 @@
     .light {
         padding: 10px 15px;
         margin: 0;
-        background: @color3;
-        color: @color2;
+        background: @color2;
+        color: @color3;
         margin-left: 2em;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Open Sans', sans-serif;
     }
     .dark {
         display: inline-block;
@@ -153,6 +153,16 @@
       -webkit-hyphens: auto;
       -ms-hyphens: auto;
       -hyphens: auto;
+      .label-default {
+        display: inline-block;
+        margin: 4px 4px 0 0;
+        padding: 2px 4px;
+        text-shadow: inherit;
+        font-size: 0.8em;
+        font-weight: 100;
+        color: @color3;
+        background: @color2;
+      }
     }
     .info-box-icon {
       position: relative;
@@ -161,9 +171,12 @@
       overflow: hidden;
       text-align: center;
       color: @color3;
+      background: @color2;
+      border: 1px solid @color3;
+      border-radius: 15% 0;
       width: 9em;
       height: 9em;
-      line-height: 0em;
+      line-height: 14em;
       i {
         font-size: 7em;
       }
@@ -357,13 +370,13 @@
       color: @color3;
       text-decoration: none;
       display: inline-block;
-      border-bottom: 2px solid @color3;
+      border-bottom: 2px solid @color1;
       margin: 0.5em 0 0 0.5em;
       &:hover,
       &:focus {
-        color: @color2;
-        background: @color1;
-        border-bottom: 2px solid @color1;
+        color: @color3;
+        background: @color4;
+        border-bottom: 2px solid @color4;
       }
     }
     .footer-social-links a {
@@ -397,6 +410,5 @@
   }
   a {
     color: @color2;
-    text-decoration: underline;
   }
 }

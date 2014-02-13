@@ -34,7 +34,10 @@
       .info-box-icon {
         min-width: 12em;
         margin-top: 2em;
+        background: transparent;
+        border-radius: 0;
         border: 0;
+        color: @color4;
         i {
           font-size: 9em;
         }
@@ -73,6 +76,13 @@
         font-size: 3em;
         color: @color2;
       }
+      .info-box-content {
+        text-align: center;
+        .label-default {
+          color: @color3;
+          background: @color4;
+        }
+      }
       .info-box-icon {
         width: 15em;
         height: 15em;
@@ -82,18 +92,9 @@
         border: 1px solid @color3;
         border-radius: 50%;
         float: none;
-          i {
-            font-size: 10em;
-          }
-      }
-    }
-    .info-box-content {
-      text-align: center;
-      .label-default {
-        background: transparent;
-        color: @color2;
-        border: 1px solid @color4;
-        border-radius: 3px;
+        i {
+          font-size: 10em;
+        }
       }
     }
   }
