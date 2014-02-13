@@ -151,7 +151,7 @@
       </li>
     </ul>
 
-    <ul class="mbottom50 row">
+    <ul class="skill row">
       <li class="col-xs-12 col-sm-6">
         <ul class="skill-chart">
           <li>

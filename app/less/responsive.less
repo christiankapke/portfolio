@@ -2,8 +2,6 @@
 // Todo: Better modularization
 
 @media (max-width: @screen-md) {
-  // Responsive hack
-
   .page {
     font-size: 14px;
   }
@@ -28,18 +26,29 @@
   .info-box {
     .info-box-item {
       text-align: center;
+      .info-box-headline {
+        border: 0;
+      }
       .info-box-icon {
-        width: 11em;
-        height: 11em;
-        line-height: 16em;
+        width: 13em;
+        height: 13em;
+        line-height: 20em;
+        margin-top: 2em;
+        background: transparent;
+        border-radius: 50%;
+        border: 1px solid @color2;
+        color: @color3;
         i {
-          font-size: 7em;
+          font-size: 9em;
         }
       }
       .info-box-content {
         text-align: center;
       }
     }
+  }
+  .skill {
+    margin: 5em auto;
   }
   .site-header .site-header-right {
     font-size: 1.2em;
@@ -60,24 +69,33 @@
   .info-box {
     margin: 0 0 -1em;
     .info-box-item {
-      margin: 2em auto;
+      margin: 2em auto 1em;
       text-align: center;
       .info-box-headline {
         margin-top: 0.2em;
+        font-size: 3em;
+        color: @color2;
+      }
+      .info-box-content {
+        text-align: center;
+        .label-default {
+          color: @color3;
+          background: @color4;
+        }
       }
       .info-box-icon {
-        line-height: 17.5em;
-        width: 12em;
-        height: 12em;
+        width: 15em;
+        height: 15em;
+        line-height: 23em;
+        color: @color3;
+        background: @color2;
+        border: 1px solid @color3;
         border-radius: 50%;
         float: none;
-          i {
-            font-size: 7.5em;
-          }
+        i {
+          font-size: 10em;
+        }
       }
-    }
-    .info-box-content {
-      text-align: center;
     }
   }
   .heading {

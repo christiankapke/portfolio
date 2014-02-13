@@ -14,8 +14,8 @@
               <img src="img/christiankapke.jpg" class="intro-img" alt="{{name}}" title="{{name}}" />
             </div>
             <div class="col-xs-12 col-sm-9 intro-heading">
-              <h1 class="headline light">{{start.item1.title}}</h1>
-              <p class="subline lead dark">{{start.item1.content}}</p>
+              <h1 class="headline dark">{{start.item1.title}}</h1>
+              <p class="subline lead light">{{start.item1.content}}</p>
             </div>
           </div>
         </div>
@@ -23,24 +23,24 @@
       <div class="item page">
         <div class="container">
           <div class="carousel-caption intro-heading">
-            <h1 class="light">{{start.item2.title}}</h1>
-            <p class="lead dark">{{start.item2.content}}</p>
+            <h1 class="dark">{{start.item2.title}}</h1>
+            <p class="lead light">{{start.item2.content}}</p>
           </div>
         </div>
       </div>
       <div class="item page">
         <div class="container">
           <div class="carousel-caption intro-heading">
-            <h1 class="light">{{start.item3.title}}</h1>
-            <p class="lead dark">{{start.item3.content}}</p>
+            <h1 class="dark">{{start.item3.title}}</h1>
+            <p class="lead light">{{start.item3.content}}</p>
           </div>
         </div>
       </div>
       <div class="item page">
         <div class="container">
           <div class="carousel-caption intro-heading">
-            <h1 class="light">{{start.item4.title}}</h1>
-            <p class="lead dark">{{start.item4.content}}</p>
+            <h1 class="dark">{{start.item4.title}}</h1>
+            <p class="lead light">{{start.item4.content}}</p>
           </div>
         </div>
       </div>
