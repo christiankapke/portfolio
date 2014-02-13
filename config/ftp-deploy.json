@@ -1,0 +1,11 @@
+{
+    "live": {
+        "auth": {
+            "host": "srv17.domainssaubillig.de",
+            "port": 21,
+            "authKey": "key1"
+        },
+        "src": "public",
+        "dest": "htdocs/ckapke"
+    }
+}

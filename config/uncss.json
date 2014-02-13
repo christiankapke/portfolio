@@ -1,0 +1,28 @@
+{
+    "dist": {
+        "files": {
+            "public/css/main.clean.min.css": [
+                "dev/index.html"
+            ]
+        }
+    },
+    "options": {
+        "ignore": [
+            ".carousel-inner > .item",
+            ".carousel-inner .active",
+            ".info-txt a",
+            ".carousel-inner > .active.left",
+            ".carousel-inner > .active.right",
+            ".carousel-inner > .item > img",
+            ".carousel-inner > .active",
+            ".carousel-inner > .next",
+            ".carousel-inner > .prev",
+            ".carousel-inner > .next.left",
+            ".carousel-inner > .prev.right",
+            ".carousel-inner > .item > a > img",
+            ".site-header .link.enabled",
+            ".lang-en .active-en",
+            ".show"
+        ]
+    }
+}

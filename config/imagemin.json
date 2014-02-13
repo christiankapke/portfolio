@@ -1,0 +1,17 @@
+{
+    "dynamic": {
+        "options": {
+            "optimizationLevel": 3
+        },
+        "files": [
+            {
+                "expand": true,
+                "cwd": "public/img",
+                "src": [
+                    "**/*.{png,jpg,gif}"
+                ],
+                "dest": "public/img"
+            }
+        ]
+    }
+}

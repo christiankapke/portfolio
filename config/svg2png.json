@@ -1,0 +1,12 @@
+{
+    "all": {
+        "files": [
+            {
+                "src": [
+                    "app/img/svg/*.svg"
+                ],
+                "dest": "public/img/png/"
+            }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "dev": {
+        "options": {
+            "process": true
+        },
+        "files": {
+            "dev/index.html": [
+                "dev/index.html"
+            ],
+            "dev/index_en.html": [
+                "dev/index_en.html"
+            ]
+        }
+    },
+    "public": {
+        "options": {
+            "process": true
+        },
+        "files": {
+            "public/index.html": [
+                "dev/index.html"
+            ],
+            "public/index_en.html": [
+                "dev/index_en.html"
+            ]
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "init": {
+        "files": [
+            {
+                "expand": true,
+                "cwd": "app",
+                "src": [
+                    "fonts/**"
+                ],
+                "dest": "dev/css"
+            },
+            {
+                "expand": true,
+                "cwd": "app",
+                "src": [
+                    "img/*.*"
+                ],
+                "dest": "dev",
+                "filter": "isFile"
+            },
+            {
+                "expand": true,
+                "cwd": "app",
+                "src": [
+                    ".htaccess",
+                    "robots.txt",
+                    "sitemap.xml"
+                ],
+                "dest": "dev",
+                "filter": "isFile"
+            }
+        ]
+    },
+    "public": {
+        "files": [
+            {
+                "expand": true,
+                "cwd": "dev/css/",
+                "src": [
+                    "fonts/**"
+                ],
+                "dest": "public/css/"
+            },
+            {
+                "expand": true,
+                "cwd": "dev/",
+                "src": [
+                    "img/**"
+                ],
+                "dest": "public"
+            },
+            {
+                "expand": true,
+                "cwd": "dev/",
+                "src": [
+                    ".htaccess",
+                    "robots.txt",
+                    "sitemap.xml"
+                ],
+                "dest": "public/",
+                "filter": "isFile"
+            }
+        ]
+    }
+}
