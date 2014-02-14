@@ -108,7 +108,7 @@
 
 // Section divider
 .section-divider {
-  border-top: 1px solid @color4;
+  border-top: 1px solid @color2;
   background: @color1;
   font-size: 1.3em;
   line-height: 1.2em;
@@ -117,8 +117,8 @@
       display: block;
       width: 55px;
       background: transparent;
-      color: @color4;
-      border: 1px solid @color4;
+      color: @color2;
+      border: 1px solid @color2;
       border-top-color: @color1;
       padding: 9px 10px;
       margin: -1px auto 0;
@@ -126,9 +126,9 @@
       text-align: center;
     }
   &:hover a {
-    background: @color4;
+    background: @color2;
     color: @color1;
-    border-top-color: @color4;
+    border-top-color: @color2;
   }
 }
 
@@ -138,7 +138,7 @@
   .info-box-item {
     .info-box-headline {
       font: 100 2.5em/1.2em 'Roboto', sans-serif;
-      margin: 0 0 0.2em;
+      margin: -0.2em 0 0.2em;
       color: @color2;
     }
     .info-box-content {
@@ -161,7 +161,7 @@
         font-size: 0.8em;
         font-weight: 100;
         color: @color3;
-        background: @color2;
+        background: @color4;
       }
     }
     .info-box-icon {
@@ -176,9 +176,9 @@
       border-radius: 15% 0;
       width: 9em;
       height: 9em;
-      line-height: 14em;
+      line-height: 13em;
       i {
-        font-size: 7em;
+        font-size: 6em;
       }
     }
   }
@@ -204,7 +204,7 @@
     > span:last-child {
       display: block;
       height: 5px;
-      background: @color3;
+      border: 1px solid @color4;
       border-radius: 3px;
       > span {
         display: block;
@@ -370,12 +370,13 @@
       color: @color3;
       text-decoration: none;
       display: inline-block;
-      border-bottom: 2px solid @color1;
+      border-bottom: 2px solid @color3;
       margin: 0.5em 0 0 0.5em;
       &:hover,
       &:focus {
-        color: @color2;
-        background: @color1;
+        color: @color3;
+        background: @color4;
+        border-bottom: 0;
       }
     }
     .footer-social-links a {
@@ -384,7 +385,7 @@
       border: 0;
       &:hover,
       &:focus {
-        color: @color1;
+        color: @color4;
         background: transparent;
       }
     }
