@@ -5,7 +5,7 @@ $ cat .gitignore
 .ftppass
 
 # ignore all specific directories and files
-_tmp/**/*
+_work/**/*
 bower_components/**/*
 node_modules/**/*
 dev/**/*
