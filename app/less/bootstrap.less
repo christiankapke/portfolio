@@ -209,7 +209,6 @@ html {
 body {
     background-color: inherit;
     color: #333333;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
     line-height: 1.428571429;
 }
@@ -219,11 +218,11 @@ input, button, select, textarea {
     line-height: inherit;
 }
 a {
-    color: #ffcc00;
+    color: @color4;
     text-decoration: none;
 }
 a:hover, a:focus {
-    color: #b38f00;
+    color: fade(@color4, 50%);
     text-decoration: underline;
 }
 a:focus {
