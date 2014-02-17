@@ -157,7 +157,7 @@
             },
             "item2": {
                 "title": "Engagiert",
-                "content": "Auf der Suche nach Lösungen kenne ich keine Scheuklappen. Wenn mich ein Thema gepackt hat, bin ich mit Hingabe dabei. Dank ausgeprägter <strong>„Hands-On-Mentalität“</strong> bringe ich mich stets konstruktiv ein und übernehme gerne <strong>Verantwortung</strong>."
+                "content": "Auf der Suche nach Lösungen kenne ich keine Scheuklappen. Wenn mich ein Thema gepackt hat, bin ich mit Hingabe dabei. Dank ausgeprägter <strong>„Hands-On-Mentalität“</strong> bringe ich mich stets konstruktiv ein und übernehme gerne Verantwortung."
             },
             "item3": {
                 "title": "Vielseitig",
@@ -183,7 +183,7 @@
             "country": "Deutschland",
             "telnr": "Telefonnummer",
             "tel": "+49 3641 559 210",
-            "mailtxt": "e-Mail",
+            "mailtxt": "Kontakt",
             "mail": "contact@ckapke.de",
             "blogtxt": "Blog",
             "portfolio": "Portfolio",
@@ -347,7 +347,7 @@
             },
             "item2": {
                 "title": "Involved",
-                "content": "When I look for <strong>solutions</strong>, I do not wear blinders. Once a new project or idea comes my way, I give it my all. Because I am a <strong>hands-on</strong> kind of person, I always bring constructive suggestions and ideas “to the party“. I am someone who likes to take on additional <strong>responsability</strong>."
+                "content": "When I look for <strong>solutions</strong>, I do not wear blinders. Once a new project or idea comes my way, I give it my all. Because <strong>I am a hands-on kind of person</strong>, I always bring constructive suggestions and ideas “to the party“. I am someone who likes to take on additional <strong>responsability</strong>."
             },
             "item3": {
                 "title": "Diversity",
@@ -373,7 +373,7 @@
             "country": "Germany",
             "telnr": "Telephone Number",
             "tel": "+49 3641 559 210",
-            "mailtxt": "Mail",
+            "mailtxt": "Contact",
             "mail": "contact@ckapke.de",
             "blogtxt": "Blog",
             "portfolio": "Portfolio",

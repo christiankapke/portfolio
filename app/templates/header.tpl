@@ -3,33 +3,33 @@
     <nav class="navbar col-xs-2 col-md-8">
       <div class="nav" role="navigation">
         <i class="icon-ck-menu visible-xs visible-sm"></i>
-        <ul>
-          <li>
+        <ul class="navbar-inner">
+          <li class="item">
             <a class="scroll link" href="#start" title="{{header.nav1}}">
               <span>{{header.nav1}}</span>
             </a>
           </li>
-          <li>
+          <li class="item">
             <a class="scroll link" href="#knowledge" title="{{header.nav2}}">
               <span>{{header.nav2}}</span>
             </a>
           </li>
-          <li>
+          <li class="item">
             <a class="scroll link" href="#work" title="{{header.nav3}}">
               <span>{{header.nav3}}</span>
             </a>
           </li>
-          <li>
+          <li class="item">
             <a class="scroll link" href="#career" title="{{header.nav4}}">
               <span>{{header.nav4}}</span>
             </a>
           </li>
-          <li>
+          <li class="item">
             <a class="scroll link" href="#about" title="{{header.nav5}}">
               <span>{{header.nav5}}</span>
             </a>
           </li>
-          <li class="header-localization">
+          <li class="item header-localization">
               <a href="index.html" class="link active-de" title="{{header.german}}">de</a> | <a href="index_en.html" class="link active-en" title="{{header.english}}">en</a>
           </li>
         </ul>

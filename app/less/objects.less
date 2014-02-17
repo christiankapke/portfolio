@@ -1,5 +1,42 @@
 // OOP-CSS
 
+/***** CONTENT PAGES ******/
+
+.page1,
+.page2,
+.page4 {
+  .background-page(@color1);
+}
+
+.page1 {
+  .intro-img {
+    margin: 0;
+    max-width: 9em;
+    border: 3px solid @color2;
+    border-radius: 4em 0;
+  }
+}
+// SVG Fallback
+.no-svg .page1 .item {
+  &:nth-child(1) {
+    background-image: url(../img/png/intro-1.png);
+  }
+  &:nth-child(2) {
+    background-image: url(../img/png/intro-2.png);
+  }
+  &:nth-child(3) {
+    background-image: url(../img/png/intro-3.png);
+  }
+  &:nth-child(4) {
+    background-image: url(../img/png/intro-4.png);
+  }
+}
+
+.page3 {
+  background: @color1 url(../img/bg-waves.svgz) no-repeat 50% 50%;
+  background-size: cover;
+}
+
 // Header
 .site-header {
   display: block;
@@ -89,21 +126,21 @@
 
 // Intro Slider
 .intro-heading {
-    .light {
-        padding: 10px 15px;
-        margin: 0;
-        background: @color2;
-        color: @color3;
-        margin-left: 2em;
-        font-family: 'Open Sans', sans-serif;
-    }
-    .dark {
-        display: inline-block;
-        padding: 5px 10px;
-        margin: 0;
-        background: @color4;
-        color: @color3;
-    }
+  .light {
+    padding: 10px 15px;
+    margin: 0;
+    background: @color2;
+    color: @color3;
+    margin-left: 2em;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .dark {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0;
+    background: @color4;
+    color: @color3;
+  }
 }
 
 // Section divider
@@ -113,7 +150,7 @@
   font-size: 1.3em;
   line-height: 1.2em;
   width: 100%;
-    a {
+    .link {
       display: block;
       width: 55px;
       background: transparent;
@@ -125,7 +162,7 @@
       text-decoration: none;
       text-align: center;
     }
-  &:hover a {
+  &:hover .link {
     background: @color4;
     color: @color1;
     border-top-color: @color4;
@@ -253,7 +290,7 @@
   }
 }
 
-// Elements with background color
+// Heading elements with background color
 .bg-dark,
 .bg-light,
 .bg-original {
@@ -263,18 +300,14 @@
 .bg-dark {
   background: @color3;
   color: @color2;
-    a {
-      color: @color1;
-    }
+  a {
+    color: @color1;
+  }
 }
 .bg-light {
   background: @color2;
   color: @color3;
   font-weight: 100;
-}
-.bg-original {
-  background: @color1;
-  color: @color3;
 }
 
 // Personal information
@@ -401,10 +434,10 @@
   color: @color2;
   border-top: 1px solid @color4;
   font-size: 0.8em;
-  i {
+  .love {
     color: @color4;
   }
-  a {
+  .link {
     color: @color2;
   }
 }

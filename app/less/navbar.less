@@ -2,22 +2,21 @@
 .navbar {
   min-height: 50px;
   padding: 0;
-  ul {
+  .navbar-inner {
     display: block;
   }
-    li {
-      display: inline-block;
-      .link {
-        padding: 0 0.8em;
-          &:hover,
-          &:focus,
-          &:active {
-            background: none;
-          }
-        &.enabled {
-          color: @color4;
-          border-bottom: 1px solid @color4;
-        }
+  .item {
+    display: inline-block;
+    margin: 0 0.8em;
+    .link {
+      &:hover,
+      &:focus,
+      &:active {
+        background: none;
+      }
+      .enabled {
+        color: @color4;
+        border-bottom: 1px solid @color4;
       }
     }
   }
@@ -31,6 +30,7 @@
       cursor: pointer;
     }
   }
+}
 
 @media (min-width: @screen-md) {
   .navbar {
@@ -46,16 +46,16 @@
       display: block;
       font-size: 2em;
     }
-    ul {
+    .navbar-inner {
       display: none;
       padding-top: 1em;
-      li {
+      .item {
         display: block;
         .link {
           padding: 0.5em;
           border: 0;
           display: inline-block;
-          &.enabled {
+          .enabled {
             border-bottom:0;
           }
         }
