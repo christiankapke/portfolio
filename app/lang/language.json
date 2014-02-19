@@ -62,6 +62,7 @@
                 "title": "Grafikdesign"
             },
             "skills": {
+                "headline": "Erfahrungslevel",
                 "frontend": "Frontend-Entwicklung",
                 "ux": "UI / UX Design",
                 "backend": "Backend-Entwicklung",
@@ -252,6 +253,7 @@
                 "title": "Graphic Design"
             },
             "skills": {
+                "headline": "Skills level",
                 "frontend": "Web development",
                 "ux": "UI / UX design",
                 "backend": "Backend development",
@@ -264,7 +266,7 @@
         },
         "work": {
             "headline": "Working Experience",
-            "subline": "Know-how in the areas of <strong>web design</strong>, <strong>graphic design</strong>, <strong>fashion</strong> and <strong>event management</strong>.",
+            "subline": "In-depth know-how in the areas of <strong>web design</strong>, <strong>graphic design</strong>, <strong>fashion</strong> and <strong>event management</strong>.",
             "item1": {
                 "title": "Web Design",
                 "content": "More than 10 years’ experience as a web designer. Projects with companies such as <a href=\"http://www.bewerbungshomepage.de/article_15_16_Livekids-Microsoft.html\" target=\"_blank\">Microsoft</a>, <a href=\"http://www.bewerbungshomepage.de/article_44_16_McDonalds-Franchise-Web.html\" target=\"_blank\">McDonald's</a>, <a href=\"http://www.bewerbungshomepage.de/article_6_16_Produktpraesentation-Paypda-com.html\" target=\"_blank\">Ingenico</a> and many <a href=\"http://www.bewerbungshomepage.de/category_16_Webseiten.html\" target=\"_blank\">more</a>..."

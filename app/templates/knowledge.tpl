@@ -150,49 +150,50 @@
         </ul>
       </li>
     </ul>
-
-    <ul class="skill row">
-      <li class="col-xs-12 col-sm-6">
-        <ul class="skill-chart">
-          <li class="skill-chart-item">
-            {{knowledge.skills.frontend}} <span>95%</span>
-            <span><span style="width: 95%;"></span></span>
-          </li>
-          <li class="skill-chart-item">
-            {{knowledge.skills.ux}} <span>75%</span>
-            <span><span style="width: 75%;"></span></span>
-          </li>
-          <li class="skill-chart-item">
-            {{knowledge.skills.backend}} <span>35%</span>
-            <span><span style="width: 35%;"></span></span>
-          </li>
-          <li class="skill-chart-item">
-            {{knowledge.skills.seo}} <span>60%</span>
-            <span><span style="width: 60%;"></span></span>
-          </li>
-        </ul>
-      </li>
-      <li class="col-xs-12 col-sm-6">
-        <ul class="skill-chart">
-          <li class="skill-chart-item">
-            {{knowledge.skills.personell}} <span>80%</span>
-            <span><span style="width: 80%;"></span></span>
-          </li>
-          <li class="skill-chart-item">
-            {{knowledge.skills.marketing}} <span>55%</span>
-            <span><span style="width: 55%;"></span></span>
-          </li>
-          <li class="skill-chart-item">
-            {{knowledge.skills.print}} <span>50%</span>
-            <span><span style="width: 50%;"></span></span>
-          </li>
-          <li class="skill-chart-item">
-            {{knowledge.skills.event}} <span>40%</span>
-            <span><span style="width: 40%;"></span></span>
-          </li>
-        </ul>
-      </li>
-    </ul>
-
+    <div class="skill">
+      <h2 class="headline">{{knowledge.skills.headline}}</h2>
+      <ul class="row">
+        <li class="col-xs-12 col-sm-6">
+          <ul class="skill-chart">
+            <li class="skill-chart-item">
+              {{knowledge.skills.frontend}} <span>95%</span>
+              <span><span style="width: 95%;"></span></span>
+            </li>
+            <li class="skill-chart-item">
+              {{knowledge.skills.ux}} <span>75%</span>
+              <span><span style="width: 75%;"></span></span>
+            </li>
+            <li class="skill-chart-item">
+              {{knowledge.skills.backend}} <span>35%</span>
+              <span><span style="width: 35%;"></span></span>
+            </li>
+            <li class="skill-chart-item">
+              {{knowledge.skills.seo}} <span>60%</span>
+              <span><span style="width: 60%;"></span></span>
+            </li>
+          </ul>
+        </li>
+        <li class="col-xs-12 col-sm-6">
+          <ul class="skill-chart">
+            <li class="skill-chart-item">
+              {{knowledge.skills.personell}} <span>80%</span>
+              <span><span style="width: 80%;"></span></span>
+            </li>
+            <li class="skill-chart-item">
+              {{knowledge.skills.marketing}} <span>55%</span>
+              <span><span style="width: 55%;"></span></span>
+            </li>
+            <li class="skill-chart-item">
+              {{knowledge.skills.print}} <span>50%</span>
+              <span><span style="width: 50%;"></span></span>
+            </li>
+            <li class="skill-chart-item">
+              {{knowledge.skills.event}} <span>40%</span>
+              <span><span style="width: 40%;"></span></span>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
   </div>
 </article>
