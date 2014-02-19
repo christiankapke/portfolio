@@ -1,7 +1,5 @@
 // OOP-CSS
 
-/***** CONTENT PAGES ******/
-
 .page1,
 .page2,
 .page4 {
@@ -91,13 +89,13 @@
   display: block;
   padding-top: 7em;
   font-size: 1em;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 200;
+  font-weight: 100;
   max-width: @max-width;
   margin:0 auto;
   .headline {
     display: block;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
     font-size: 2.5em;
     text-transform: uppercase;
     .dark {
@@ -110,12 +108,13 @@
   }
   .subline {
     display: block;
-    margin: .2em 0;
-    font-size: 1.5em;
+    margin: .2em 0 0.2em 4em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.35em;
     text-align: right;
     .light {
       display: inline;
-      line-height: 1.3em;
+      line-height: 1.35em;
       margin: 0;
       padding: 0 0.2em;
       background: @color2;
@@ -138,6 +137,7 @@
     display: inline-block;
     padding: 5px 10px;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
     background: @color4;
     color: @color3;
   }
@@ -333,6 +333,7 @@
   }
   .info-headline {
     max-width: 450px;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
     font-weight: 100;
     padding: 5px 0;
@@ -362,7 +363,8 @@
   position: relative;
   background: @color2;
   color: @color3;
-  font-family: "Roboto";
+  font-family: 'Open Sans', 'sans serif';
+  font-weight: 400;
   padding-bottom: 4em;
   border-top: 1px solid @color3;
   .footer-top-link {
