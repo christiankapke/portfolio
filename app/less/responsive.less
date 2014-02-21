@@ -64,6 +64,7 @@
     .headline {
       text-align: center;
       font-size: 3em;
+      margin: 2em auto 0.5em;
     }
     .skill-chart {
         margin: 0 auto;
@@ -133,6 +134,7 @@
   .header {
     padding-top: 55px;
   }
+
   .footer {
     .footer-content {
       margin: 3em auto 0;
@@ -169,16 +171,6 @@
       min-height: 45px;
     }
   }
-  .intro-img {
-    max-width: 10em;
-    max-height: inherit;
-    width: 100%;
-    height: auto;
-    margin: 0 auto 10px;
-    display: block;
-    border-radius: 50%;
-    border-width: 5px;
-  }
   .heading {
     margin: 0 10px;
     font-size: 0.8em;
@@ -204,6 +196,19 @@
       }
     }
   }
+  .intro-img {
+    max-width: 9.5em;
+    display: block;
+    border-width: 2px;
+    margin: 0 auto 1em;
+  }
+  .intro-heading {
+    .headline,
+    .subline {
+      margin: 0;
+    }
+  }
+
   .portfolio {
     padding-top: 0;
     .portfolio-desc {
@@ -219,12 +224,8 @@
 
   @media (max-height: 768px) {
     .carousel-caption {
-      top: 5em;
+      top: 10em;
     }
-  }
-  .welcome-photo img {
-    width: 25em;
-    margin-bottom: 2em;
   }
   .page {
     font-size: 14px;

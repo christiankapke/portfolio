@@ -6,14 +6,6 @@
   .background-page(@color1);
 }
 
-.page1 {
-  .intro-img {
-    margin: 0;
-    max-width: 9em;
-    border: 3px solid @color2;
-    border-radius: 4em 0;
-  }
-}
 // SVG Fallback
 .no-svg .page1 .item {
   &:nth-child(1) {
@@ -167,6 +159,14 @@
     color: @color1;
     border-top-color: @color4;
   }
+}
+
+// Intro image
+.intro-img {
+  margin: 0;
+  max-width: 9em;
+  border: 3px solid @color2;
+  border-radius: 4em 0;
 }
 
 // Info Box
@@ -334,8 +334,6 @@
   }
   strong {
     font-weight: 400;
-    background: @color4;
-    color: @color3;
     padding: 0 3px;
   }
   .info-headline {

@@ -3,7 +3,7 @@
     <i class="icon-ck-up"></i>
   </a>
   <ul class="section-wrapper row footer-content">
-    <li class="col-sm-6 col-xs-12">
+    <li class="col-xs-12 col-sm-6">
       <ul class="row footer-credits">
         <li class="footer-content-logo col-sm-2 col-xs-12">
           <i class="icon-ck-logo"></i>

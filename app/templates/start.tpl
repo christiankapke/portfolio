@@ -23,24 +23,24 @@
       <div class="item page">
         <div class="container">
           <div class="carousel-caption intro-heading">
-            <h1 class="dark">{{start.item2.title}}</h1>
-            <p class="lead light">{{start.item2.content}}</p>
+            <h1 class="headline dark">{{start.item2.title}}</h1>
+            <p class="subline light">{{start.item2.content}}</p>
           </div>
         </div>
       </div>
       <div class="item page">
         <div class="container">
           <div class="carousel-caption intro-heading">
-            <h1 class="dark">{{start.item3.title}}</h1>
-            <p class="lead light">{{start.item3.content}}</p>
+            <h1 class="headline dark">{{start.item3.title}}</h1>
+            <p class="subline light">{{start.item3.content}}</p>
           </div>
         </div>
       </div>
       <div class="item page">
         <div class="container">
           <div class="carousel-caption intro-heading">
-            <h1 class="dark">{{start.item4.title}}</h1>
-            <p class="lead light">{{start.item4.content}}</p>
+            <h1 class="headline dark">{{start.item4.title}}</h1>
+            <p class="subline light">{{start.item4.content}}</p>
           </div>
         </div>
       </div>
