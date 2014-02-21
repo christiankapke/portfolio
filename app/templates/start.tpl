@@ -15,7 +15,7 @@
             </div>
             <div class="col-xs-12 col-sm-9 intro-heading">
               <h1 class="headline dark">{{start.item1.title}}</h1>
-              <p class="subline lead light">{{start.item1.content}}</p>
+              <p class="subline light">{{start.item1.content}}</p>
             </div>
           </div>
         </div>
