@@ -29,7 +29,7 @@ module.exports = function (grunt) {
     grunt.registerTask("test", [
         "copy:public",
         "bake",
-        "replace",
+        "replace:dev",
         "processhtml",
         "less",
         "uncss",
@@ -46,7 +46,6 @@ module.exports = function (grunt) {
     // Running `grunt public` to generate the final `public version for live deployment
     grunt.registerTask("public", [
         "test",
-        "open:public",
         "connect:public:keepalive"
     ]);
 

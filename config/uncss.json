@@ -22,7 +22,8 @@
             ".carousel-inner > .item > a > img",
             ".site-header .link.enabled",
             ".lang-en .active-en",
-            ".show"
+            ".show",
+            ".skill-chart .skill-chart-item > span:nth-child(2) > span"
         ]
     }
 }

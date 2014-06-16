@@ -1,6 +1,7 @@
 {
     "public": {
-        "path ": "http://localhost:8090"
+        "path ": "http://localhost:8090",
+         "app ": "Google Chrome"
     },
     "live": {
         "path ": "http://ckapke.de/"
